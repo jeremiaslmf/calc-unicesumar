@@ -6,7 +6,6 @@ import br.edu.unicesumar.model.Produto;
 
 public class ProdutoDAO extends DAO{
 
-
 	public void save(Produto produto){
 		EntityManager manager = getEntityManager();
 
